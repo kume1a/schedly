@@ -1,0 +1,23 @@
+{
+	"name": "backend",
+	"version": "0.0.0",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsx watch ./src/main.ts",
+		"start": "node dist/server.js",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@repo/shared": "workspace:*",
+		"@repo/ui": "workspace:*",
+		"fastify": "^5.8.5",
+		"tsx": "^4.21.0"
+	},
+	"devDependencies": {
+		"@repo/typescript-config": "workspace:*",
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	}
+}
