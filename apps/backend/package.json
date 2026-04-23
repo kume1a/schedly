@@ -10,6 +10,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
+		"@fastify/env": "^6.0.0",
 		"@repo/shared": "workspace:*",
 		"@repo/ui": "workspace:*",
 		"fastify": "^5.8.5",
